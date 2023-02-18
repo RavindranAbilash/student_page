@@ -1,8 +1,8 @@
 import {Box, Typography} from "@mui/material";
 
-const Basic = () =>{
-    return(
-        <Box bgcolor="skyblue" >
+const Basic = () => {
+    return (
+        <Box bgcolor="skyblue">
             <Typography>Basic</Typography>
         </Box>
     )

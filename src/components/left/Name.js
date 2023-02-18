@@ -1,9 +1,12 @@
-import {Box} from "@mui/material";
+import {Box, Stack, Typography} from "@mui/material";
 
-const Name = () =>{
-    return(
+const Name = () => {
+    return (
         <Box>
-            name
+            <Stack direction="column" alignItems="center">
+                <Typography variant="h6">Ravindarn Abilash</Typography>
+                <Typography>Fullstack Developer</Typography>
+            </Stack>
         </Box>
     )
 }

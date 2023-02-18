@@ -1,7 +1,7 @@
 import {Box} from "@mui/material";
 
-const Education = () =>{
-    return(
+const Education = () => {
+    return (
         <Box bgcolor="skyblue">
             Education
         </Box>
