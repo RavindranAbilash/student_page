@@ -8,8 +8,7 @@ import ExperienceCard from "../cards/ExperienceCard";
 
 const Education = () => {
     return (
-        <Box bgcolor="white">
-
+        <Box bgcolor="white" style={{boxShadow: " rgba(0, 0, 0, 0.1) 0px 4px 12px"}}>
             <Accordion>
                 <AccordionSummary
                     expandIcon={<ExpandMoreIcon />}

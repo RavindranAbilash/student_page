@@ -2,6 +2,7 @@ import {Box, Stack} from "@mui/material";
 import Basic from "../components/right/Basic";
 import Experience from "../components/right/Experience";
 import Education from "../components/right/Education";
+import Project from "../components/right/Project";
 
 
 const Right=()=>{
@@ -11,6 +12,7 @@ const Right=()=>{
                 <Basic/>
                 <Experience/>
                 <Education/>
+                <Project/>
             </Stack>
         </Box>
     )

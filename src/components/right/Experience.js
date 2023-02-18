@@ -1,4 +1,4 @@
-import {Box, Stack, Typography} from "@mui/material";
+import {Box,Stack, Typography} from "@mui/material";
 import List from '@mui/material/List';
 
 import ExperienceCard from "../cards/ExperienceCard";
@@ -10,8 +10,7 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 const Experience = () => {
     return (
-        <Box bgcolor="white">
-
+        <Box bgcolor="white" style={{boxShadow: " rgba(0, 0, 0, 0.1) 0px 4px 12px"}}>
             <Accordion>
                 <AccordionSummary
                     expandIcon={<ExpandMoreIcon/>}
