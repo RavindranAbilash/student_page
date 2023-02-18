@@ -1,9 +1,16 @@
+import {Container, Stack} from "@mui/material";
+import Left from "./layouts/Left";
+import Right from "./layouts/Right";
 
-import './App.css';
 
 const  App =()=> {
   return (
-    <div>Student page</div>
+    <Container >
+        <Stack direction={{ xs: 'column', sm: 'row' }} spacing={2} justifyContent="space-evenly"  marginTop={10}>
+            <Left/>
+            <Right/>
+        </Stack>
+    </Container>
   );
 }
 
