@@ -5,10 +5,10 @@ import Education from "../components/right/Education";
 import Project from "../components/right/Project";
 
 
-const Right=()=>{
-    return(
-        <Box flex={2} >
-            <Stack direction="column" spacing={2} >
+const Right = () => {
+    return (
+        <Box flex={2}>
+            <Stack direction="column" spacing={2}>
                 <Basic/>
                 <Experience/>
                 <Education/>

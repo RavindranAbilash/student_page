@@ -1,7 +1,7 @@
 import {Avatar} from "@mui/material";
 
-const Batch = ({alt,src}) =>{
-    return(
+const Batch = ({alt, src}) => {
+    return (
         <Avatar
             alt={alt}
             src={src}

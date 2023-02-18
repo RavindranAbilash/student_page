@@ -1,13 +1,15 @@
 import {Avatar, Stack} from "@mui/material";
 
+import profilePic from '../images/profile.jpg'
+
 
 const ProfilePic = () => {
     return (
         <Stack justifyContent="center" alignItems="center">
             <Avatar
-                alt="Remy Sharp"
-                src="/static/images/avatar/1.jpg"
-                sx={{width: 60, height: 60}}
+                alt="jenna welch"
+                src={profilePic}
+                sx={{width: 100, height: 100}}
             />
         </Stack>
     )
