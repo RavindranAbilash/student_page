@@ -2,7 +2,7 @@ import {Box} from "@mui/material";
 
 const Education = () => {
     return (
-        <Box bgcolor="skyblue">
+        <Box bgcolor="white">
             Education
         </Box>
     )

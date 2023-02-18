@@ -9,7 +9,7 @@ import AddNote from "../components/left/AddNote";
 
 const Left=()=>{
     return(
-        <Box bgcolor="skyblue" flex={1} >
+        <Box bgcolor="white" flex={1} >
             <Stack  direction="column" spacing={2}  padding={3}>
             <ProfilePic/>
             <Name/>

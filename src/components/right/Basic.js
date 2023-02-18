@@ -5,7 +5,7 @@ import {Download, Mail} from "@mui/icons-material";
 
 const Basic = () => {
     return (
-        <Box bgcolor="skyblue">
+        <Box bgcolor="white">
             <Typography variant="h6" padding={1}>Basic</Typography>
             <Grid container spacing={2} padding={2}>
                 <BasicCard title="AGE" detail="28 Years old"/>
